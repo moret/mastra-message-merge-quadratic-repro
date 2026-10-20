@@ -1,0 +1,16 @@
+{
+  "name": "mastra-message-merge-quadratic-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "tsx repro.ts",
+    "repro:encrypted": "tsx repro-encrypted.ts"
+  },
+  "dependencies": {
+    "@mastra/core": "1.78.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "tsx": "4.23.15"
+  }
+}
